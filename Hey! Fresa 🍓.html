@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey! Fresa</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra promocional -->
+    <div class="promo-bar">
+        🍓 TE LLEVAMOS AL GP DE MONACO: SIGUE LOS PASOS Y PARTICIPA | VÁLIDO DEL 18 DE MAYO HASTA EL 31 DE MAYO 🍓
+    </div>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Hey!<span>Fresa</span></a>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Hey! <span>Fresa</span></h1>
+                <p>
+                    Somos una microempresa dedicada a la elaboración de postres artesanales a base de fresa,
+                    hechos con ingredientes frescos, amor y calidad para endulzar tus momentos.
+                </p>
+                <a href="#productos" class="cta-button">Ver productos</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Inicio -->
+    <section id="inicio" class="section">
+        <p>
+            En Hey! Fresa buscamos ofrecer postres frescos y artesanales en Bogotá, combinando sabor,
+            cercanía y una experiencia dulce pensada para todos.
+        </p>
+    </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="section light">
+        <h2>Sobre Nosotros</h2>
+
+        <div class="nosotros-grid">
+            <div class="card">
+                <h3>Misión</h3>
+                <p>
+                    Ofrecer postres artesanales de alta calidad, preparados con fresas frescas y una
+                    atención cercana que genere momentos de felicidad.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Visión</h3>
+                <p>
+                    Ser una marca líder en la venta de fresas con crema en Bogotá, reconocida por su
+                    innovación, sabor y compromiso con nuestros clientes.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Valores</h3>
+                <ul>
+                    <li>Ingredientes frescos y naturales</li>
+                    <li>Productos artesanales</li>
+                    <li>Atención cálida y cercana</li>
+                    <li>Responsabilidad ambiental</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos" class="section">
+        <h2>Nuestros Productos</h2>
+
+        <div class="productos-grid">
+            <div class="product-card">🍓 Fresas con crema caseras <br> $9.500 <img src="fresasconcrema.jpg"></div>
+            <div class="product-card">🍓 Fresas con crema + 2 toppings <br> $10.000 <img src="fresasconcrema2.jpg"></div>
+            <div class="product-card">🍓 Fresas con crema + 4 toppings <br> $11.000 <img src="fresasconcrema3.jpg"></div>
+            <div class="product-card">🍓 Mermelada artesanal de fresa <br> $26.200 <img src="mermeladadefresa.jpg"></div>
+            <div class="product-card">🍓 Smoothie de fresa <br> $11.000 <img src="smoothiedefresa.jpg"></div>
+            <div class="product-card">🍓 Salsa de fresa <br> $24.500 <img src="salsadefresa.jpg"></div>
+            <div class="product-card">🍓 Fresas con hocolate <br> $9.000 <img src="fresasconchocolate.jpg"></div>
+            <div class="product-card">🍓 Waffles + 3 topping <br> $15.900 <img src="waffles.jpg"></div>
+        </div>
+    </section>
+
+    <!--Contacto-->
+    <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>Puedes comunicarte con nosotros a través de nuestras redes</p>
+
+    <div class="contacto-redes">
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+        </a>
+
+        <a href="https://wa.me/573238472420" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+        </a>
+
+        <a href="https://www.tiktok.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png" alt="TikTok">
+        </a>
+    </div>
+
+    <br>
+    <form class="contact-form">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" placeholder="ejemplo@gmail.com">
+
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" placeholder="Escribe el asunto">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+
+    </form>
+
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Hey! Fresa — Hecho con amor en Bogotá 🍓</p>
+    </footer>
+
+</body>
+</html>
